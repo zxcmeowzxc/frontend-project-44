@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sonar": "sonar-scanner"
   },
   "bin": {
     "brain-games": "bin/brain-games.js"
@@ -22,5 +22,14 @@
   "homepage": "https://github.com/zxcmeowzxc/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "sonar-scanner": "^3.1.0"
+  },
+  "scripts": {
+  "lint": "npx eslint ."
+}
 }
