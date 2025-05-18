@@ -45,7 +45,7 @@ brain-calc
 ### Запуск
 
 ``` bush
-brain-gsd
+brain-gcd
 ```
 
 [![asciicast](https://asciinema.org/a/GdWsES2hL6RXZFtBfmzSH9zau.svg)](https://asciinema.org/a/GdWsES2hL6RXZFtBfmzSH9zau)
